@@ -1,0 +1,85 @@
+{
+  "audio_files": [
+    {
+      "file_identifier": "1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE",
+      "source_google_drive_link": "https://drive.google.com/file/d/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE/view?usp=drive_link",
+      "processing_start_time": "2025-05-23T08:13:21.920547",
+      "status": "completed_successfully",
+      "processing_results": {
+        "download_audio": {
+          "status": "success_skipped_pre_existing",
+          "local_path": "/var/folders/j2/fwvtjxqn71724byx6235yqz00000gn/T/tmpmse2f6a_.wav"
+        },
+        "transcription_diarization": {
+          "status": "success",
+          "file_identifier": "1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE",
+          "audio_duration": 21.7335,
+          "speaker_turns_count": 0,
+          "diarization_performed": false,
+          "transcription_model_used": "gpt-4o-transcribe",
+          "output_files": {
+            "formatted_transcript": "outputs/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt"
+          },
+          "raw_transcript_snippet": "Callcenter: ...",
+          "error_message": null
+        },
+        "noise_analysis": {
+          "status": "success",
+          "file_identifier": "1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE",
+          "error_message": null,
+          "output_files": {
+            "noise_report_json": "outputs/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_noise_report.json"
+          },
+          "noise_metrics_summary": {
+            "overall_quality_score": 6.02,
+            "quality_label": "Good",
+            "average_snr": 10.53,
+            "average_spectral_centroid": 1305.72,
+            "average_spectral_bandwidth": 2786.84,
+            "average_spectral_flatness": 0.00165,
+            "average_rms_energy": 0.0273,
+            "num_segments_analyzed": 1,
+            "total_segments_considered": 1
+          }
+        },
+        "evaluation_analysis": {
+          "status": "success",
+          "file_identifier": "1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt",
+          "error_message": null,
+          "output_files": {
+            "json_report": "outputs/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt_evaluation_report.json",
+            "text_summary_report": "outputs/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt_evaluation_report.txt"
+          },
+          "evaluation_summary": {
+            "overall_score": 6,
+            "satisfaction_score": null,
+            "clarity_score": null,
+            "tone_score": null,
+            "complaint_detected": false
+          }
+        },
+        "summary_generation": {
+          "status": "success",
+          "file_identifier": "1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt",
+          "error_message": null,
+          "output_files": {
+            "summary_report": "outputs/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt_summary.txt"
+          }
+        },
+        "recommendation_generation": {
+          "status": "success",
+          "file_identifier": "1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt",
+          "error_message": null,
+          "output_files": {
+            "recommendations_report": "outputs/1PFfIG3aD4GMZasILcEQXIoPhYAmy_MPE_formatted_transcript.txt_recommendations.txt"
+          }
+        }
+      }
+    }
+  ],
+  "overall_summary_or_metadata": {
+    "status": "completed_with_errors",
+    "total_files_intended": 1,
+    "files_processed_this_run": 1
+  }
+}
