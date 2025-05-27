@@ -7,6 +7,8 @@ AI-powered Call Center Review & Analysis Tool
 ## Overview
 CallCenter-ReviewAgent is an advanced AI-driven solution for analyzing call center audio recordings. It automatically transcribes, evaluates, and summarizes calls, providing actionable insights and recommendations for quality improvement. The tool features a modern, visually appealing UI and supports both English and Arabic (with full RTL support).
 
+> **Note:** Some files in this repository may be incomplete with the comment "... (rest of file omitted for brevity, but will be uploaded in full) ...". We are in the process of uploading the complete versions of all files.
+
 ---
 
 ## Features
